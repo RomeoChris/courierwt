@@ -110,7 +110,7 @@
 
 	.about-area-2 .about-inner-wrap {
 		margin-right: 169px;
-	}
+	}single-service-wrap
 
 	.about-area-2 .about-thumb-wrap .img-1 {
 		width: 90px;
@@ -661,7 +661,7 @@
 	}
 
 	.pd-top-115b {
-		padding-top: 0px;
+		padding-top: 30px;
 	}
 
 	.swiper-container .button,
@@ -1148,3 +1148,42 @@
 		margin: 0px 6px;
 	  }
 }
+
+@media (min-width: 991px) {
+	.mobile-content-center{
+		margin-bottom: 150px !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.bc-area-s2 {
+		padding: 1px 0 115px;
+	}
+	.pd-top-120 {
+		padding-top: 0px;
+		margin-top: -50px;
+	  }
+}
+
+@media (max-width: 1439px) {
+	.bc-area-s2 {
+		padding: 1px 0 132px;
+	}
+
+}
+
+@media (max-width: 1199px) {
+	.bc-area-s2 {
+		padding: 1px 0 128px;
+	}
+}
+
+@media (max-width: 767px) {
+	.bc-area-s2 {
+		padding: 1px 0 70px;
+	}
+}
+
+.contact-p-top {
+	margin-top: 40px !important;
+  }

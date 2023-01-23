@@ -1,8 +1,5 @@
 /*
 Theme Name: 4Way Courier - Transport & Logistics Service Figma Template
-Theme URI: http://wowtheme.com/html/transport
-Author: Wowtheme
-Author URI: http://wowtheme.com
 Description: 4Way Courier - Transport & Logistics Service Figma Template
 Version: 1.0.0
 */
@@ -45,7 +42,7 @@ Version: 1.0.0
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;family=Yantramanav:wght@300;400;500;700;900&amp;display=swap");
 
 :root {
-  --main-color: #f38831;
+  --main-color: #17389c;
   --heading-color: #080C24;
   --paragraph-color: #565969;
   --body-font: "Public Sans", sans-serif;
@@ -749,7 +746,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -4px;
-  background: #FB493D;
+  background: #17389c
   height: 1px;
   width: 0%;
   -webkit-transition: 0.4s;
@@ -757,7 +754,7 @@ ul {
 }
 
 .read-more-text:hover {
-  color: #FB493D;
+  color: #17389c
 }
 
 .read-more-text:hover:after {
@@ -773,7 +770,7 @@ ul {
 #track {
   padding: 10px 20px;
   width: 100%;
-  border-color: #FB493D;
+  border-color: #17389c
   border-style: solid;
   margin: -10px 0 20px;
 }
@@ -790,7 +787,7 @@ ul {
 .add-to-cart-btn:hover,
 .add-to-cart-btn.active,
 .add-to-cart-btn:focus {
-  color: #FB493D;
+  color: #17389c
 }
 
 .add-to-cart-btn span {
@@ -1078,7 +1075,7 @@ ul {
     ## Breadcumb 
 ------------------------------------------*/
 .breadcrumb-area {
-  padding: 1px 0 171px;
+  padding: 1px 0 150px;
   position: relative;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1121,7 +1118,7 @@ ul {
 }
 
 .breadcrumb-area .page-list li a {
-  color: #FB493D;
+  color: #17389c
 }
 
 .breadcrumb-area .page-list li:after {
@@ -1129,7 +1126,7 @@ ul {
   left: 0;
   top: 1px;
   content: "\f061";
-  color: #FB493D;
+  color: #17389c
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
 }
@@ -1591,7 +1588,7 @@ ul {
 
 .section-title .subtitle {
   font-weight: 600;
-  font-size: 25px;
+  font-size: 30px;
   color: var(--main-color);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(15.22%, rgba(250, 67, 24, 0)), color-stop(33.76%, rgba(250, 67, 24, 0.0833333)), color-stop(58.49%, rgba(250, 67, 24, 0.23)), color-stop(79.25%, rgba(250, 67, 24, 0.39383)), to(#f38831));
   background: linear-gradient(180deg, rgba(250, 67, 24, 0) 15.22%, rgba(250, 67, 24, 0.0833333) 33.76%, rgba(250, 67, 24, 0.23) 58.49%, rgba(250, 67, 24, 0.39383) 79.25%, #f38831 100%);
@@ -1813,7 +1810,7 @@ ul {
 }
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li:hover a {
-  color: #FB493D;
+  color: #17389c
 }
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li+li {
@@ -1925,7 +1922,7 @@ ul {
 }
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {
-  background: #FB493D;
+  background: #17389c
 }
 
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover a {
@@ -2176,7 +2173,7 @@ ul {
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background: #FB493D;
+  background: #17389c
   text-align: center;
   font-size: 13px;
   line-height: 22px;
@@ -3797,7 +3794,7 @@ ul {
   top: 0;
   height: 100%;
   width: 100%;
-  background: var(--main-color);
+  background: #17389c;
   z-index: -1;
   border: 0;
   border-radius: 50%;
@@ -4953,33 +4950,6 @@ ul {
   position: relative;
 }
 
-.single-service-wrap:hover .thumb:before,
-.single-service-wrap:hover .thumb:after {
-  border-color: transparent transparent transparent var(--main-color);
-}
-
-.single-service-wrap:hover .details {
-  background: var(--main-color);
-}
-
-.single-service-wrap:hover .details p,
-.single-service-wrap:hover .details h5 {
-  color: #fff;
-}
-
-.single-service-wrap:hover .details p {
-  border-bottom-color: #fff;
-}
-
-.single-service-wrap:hover .details .btn-wrap .read-more-text {
-  color: #fff;
-}
-
-.single-service-wrap:hover .details .btn-wrap .read-more-text span {
-  background: #fff;
-  color: var(--main-color);
-}
-
 .single-service-wrap .thumb {
   margin: 0 30px;
   position: relative;
@@ -5025,7 +4995,7 @@ ul {
 .single-service-wrap .thumb .icon {
   height: 70px;
   width: 70px;
-  background: var(--main-color);
+  background: #17389c;
   border-radius: 50%;
   text-align: center;
   line-height: 68px;
@@ -5059,7 +5029,6 @@ ul {
 
 .single-service-wrap .details p {
   line-height: 26px;
-  border-bottom: 1px solid rgba(8, 12, 36, 0.15);
   padding-bottom: 17px;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
@@ -5329,7 +5298,7 @@ ul {
   height: 3px;
   bottom: -16px;
   left: 0;
-  background: #FB493D;
+  background: #17389c
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
 }
@@ -6013,7 +5982,7 @@ ul {
 }
 
 .single-blog-inner .details h4:hover a {
-  color: #FB493D;
+  color: #17389c
 }
 
 .single-blog-inner .details .read-more-text {
@@ -6452,7 +6421,7 @@ blockquote .icon {
 .footer-area .footer-top .single-footer-top .icon:after {
   content: "";
   position: absolute;
-  background: #f38831;
+  background: var(--main-color);
   opacity: 0.3;
   height: 80px;
   width: 80px;
@@ -6500,7 +6469,7 @@ blockquote .icon {
   height: 3px;
   bottom: 0px;
   left: 0;
-  background: linear-gradient(90.09deg, #f38831 -7.63%, rgba(250, 67, 24, 0) 99.84%);
+  background: linear-gradient(90.09deg, #17389c -7.63%, rgba(250, 67, 24, 0) 99.84%);
   -webkit-transform: translate(0, 50%);
   transform: translate(0, 50%);
   z-index: -1;
@@ -6950,4 +6919,107 @@ blockquote .icon {
 
 .tel-res a {
   cursor: pointer;
+}
+
+
+/* modal */
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, .7);
+  transition: all .4s;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__content {
+  border-radius: 4px;
+  position: relative;
+  width: 100%;
+  max-width: 90%;
+  background: #fff;
+  padding: 1em 2em;
+}
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #585858;
+  text-decoration: none;
+}
+
+.about-us-s2{
+  padding: 0 0 !important;
+}
+
+.chose-us-s2{
+  text-align: left !important;
+}
+
+.services-s2{
+  padding: 0 0 !important
+}
+
+.wcu-s2{
+  margin-top: 170px !important;
+}
+
+.title-animate{
+  width: 19.5ch;
+	white-space: normal;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 19.5ch; 
+  }
+}
+
+.content-animate{
+  animation: 2s anim-lineUp ease-out infinite;
+  animation-iteration-count: 1;
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
